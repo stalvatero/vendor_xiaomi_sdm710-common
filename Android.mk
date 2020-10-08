@@ -17,6 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter sirius,$(TARGET_DEVICE)),)
+ifneq ($(filter sirius grus pyxis vela,$(TARGET_DEVICE)),)
 
 endif
